@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Contacto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <a class="logo" href="../../index.html">BURN REBORN</a>
+                <a href="../Clases/clases.html">CLASES</a>
+                <a href="../Planes/planes.html">PLANES</a>
+                <a href="../Sedes-y-horarios/sedes.html">SEDES Y HORARIOS</a>
+                <a href="../Contactanos/contactanos.html">CONTACTANOS</a>
+            </nav>
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <h2>HACETE SOCIO</h2>
+        <div class="container">
+            <form  class="formulario">
+                <div class="mb-3 mt-3">
+                    <input type="text" class="form-control" id="name" placeholder="Nombre" name="nombre">
+                </div>
+                <div class="mb-3 mt-3">
+                    <input type="text" class="form-control" id="lastname" placeholder="Apellido" name="apellido">
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control" id="comment" name="text" placeholder="Comentarios"></textarea>
+                </div>
+                <label for="browser" class="form-label">Seleccione el Plan deseado</label>
+                <input class="form-control" list="browsers" name="browser" id="browser">
+                <datalist id="browsers">
+                    <option value="Plan Mensual">
+                    <option value="Plan 2x1">
+                    <option value="Plan Anual">
+                    <option value="Plan Primera Clases Gratis">
+                    <option value="Plan Abono Empresarial">
+                    <option value="Natación">
+                </datalist>
+                <a href="#" class="btn ">Enviar</a>
+            </form>
+        </div>
+        <footer class="footer">
+            <div>Copyright (c) 2024. REBORN BURN. Todos los derechos reservados. Alexander Flores
+            </div>
+        </footer>
+    </main>
+
+
+</body>
+
+</html>
