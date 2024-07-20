@@ -164,6 +164,25 @@ h4,label{
     align-items: center;
 }
 
+
+/*Para la funcion que cambia el color de la alerta cuando se ingreso correctamente*/
+
+#error-message {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    padding: 10px;
+    display: none;
+}
+
+#success-message {
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    padding: 10px;
+    display: none;
+}
+
 /* Estilos para dispositivos móviles pequeños (hasta 600px) */
 @media only screen and (max-width: 700px) {
     
